@@ -57,3 +57,47 @@ Angular CLI does not come with an end-to-end testing framework by default. You c
 ## Additional Resources
 
 For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+# TaskFlow - Personal Task Manager
+
+## Project Brief
+TaskFlow is a small web app to help users manage their daily tasks. You can add, edit, delete, and track your tasks easily.
+
+---
+
+## Main Features
+- **Add Task**: Give a title, description, due date, status (Pending, In Progress, Completed), and priority (Low, Medium, High).  
+- **Edit Task**: Change task details.  
+- **Delete Task**: Remove a task with a confirmation message.  
+- **Change Status**: Quickly update a task’s status.  
+- **View All Tasks**: See all tasks in a table.  
+- **Task Details**: Open a task to see all information on a separate page.
+
+---
+
+## Technical Requirements
+- Built with **Angular v21** using standalone components  
+- **Task Interface** in TypeScript  
+- **Service** for all task operations (add, edit, delete, etc.)  
+- **Routing** with parameters and child routes  
+- **Two-way data binding** in forms  
+- **Bootstrap 5** for styling and layout  
+
+---
+
+## Project Structure
+- `AppComponent`  
+- `NavbarComponent`  
+- `TaskListComponent`  
+- `TaskDetailComponent`  
+- `TaskInfoComponent`  
+- `TaskEditComponent`  
+- `TaskAddComponent`  
+- `task.model.ts`  
+- `task.service.ts`  
+
+---
+
+## How to Install
+1. Clone the repository:  
+   ```bash
+   git clone https://github.com/YourUsername/TaskFlow.git
