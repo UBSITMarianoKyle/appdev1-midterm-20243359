@@ -5,6 +5,11 @@
     <input [(ngModel)]="task.title" class="form-control mb-2">
   
     <input [(ngModel)]="task.description" class="form-control mb-2">
+    <input 
+    type="date" 
+    [(ngModel)]="task.dueDate" 
+    class="form-control mb-2"
+  >
   
     <select [(ngModel)]="task.status" class="form-select mb-2">
       <option>Pending</option>

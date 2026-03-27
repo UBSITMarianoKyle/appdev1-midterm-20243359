@@ -2,7 +2,14 @@
     <h4 class="mb-3">Add New Task</h4>
   <input [(ngModel)]="task.title" placeholder="Title" class="form-control mb-2">
   <input [(ngModel)]="task.description" placeholder="Description" class="form-control mb-2">
-  
+  <div class="mb-3">
+    <label class="form-label fw-bold">Due Date</label>
+    <input 
+      type="date" 
+      [(ngModel)]="task.dueDate" 
+      class="form-control"
+    >
+  </div>
     
     <div class="mb-3">
       <label class="form-label fw-bold">Task Status</label>
