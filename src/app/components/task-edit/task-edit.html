@@ -12,19 +12,21 @@
   >
   
     <select [(ngModel)]="task.status" class="form-select mb-2">
+      <option>Completed</option>
+    
       <option>Pending</option>
       <option>In Progress</option>
-      <option>Completed</option>
     </select>
   
     <select [(ngModel)]="task.priority" class="form-select mb-2">
+
       <option>Low</option>
       <option>Medium</option>
       <option>High</option>
     </select>
   
     <button (click)="updateTask()" class="btn btn-warning">
-      💾 Save Changes
+      Save Changes
     </button>
   
   </div>
